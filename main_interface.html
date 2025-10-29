@@ -1,0 +1,111 @@
+<!DOCTYPE html> <!-- html 5 document declaration -->
+
+<!-- Home (Loading Screen for people checking out your portfolio)-->
+ <!--About (About yourself, what kinds of code you do)-->
+ <!-- Projects (List links to your github along with projects you've completed)-->
+  <!-- main website colors: rgb(199, 189, 151), white, black-->
+
+<html> <!-- opening html tag -->
+
+    <head>
+    <!--Website's favicon-->
+
+     <link rel="icon" type="images/png" href="images/favicon.png">
+
+    <!--Website's title-->
+     <head>
+        <title> YAZdev </title>
+    </head>
+
+    <!--image in website -->
+    <img src="images/TRIAL.gif" height = 200 style="margin-top: 300px; margin-left: 130px;">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="TitlePosition">
+        <h1>hey, yara here.</h1>
+        </div>
+
+        <div id="underTitlePosition">
+            <h3>code now, cry later</h3>
+            <p>I am a developer, proficient in Java, C++, HTML, CSS, and Python and an aspiring software engineer currently pursuing a bachelor's degree in Computer Science, minoring in Software Engineering.</p>
+
+        </div>
+        <!--buttons guiding the user to certain parts in the website!-->
+        <div id="ButtonLocations">
+        <a href="">
+            <button> About Me </button>
+            <br>
+            <br>
+        </a>
+        <a href="">
+            <br>
+            <br>
+            <button> Projects</button>
+            <br>
+            <br>
+        </a>
+        <a href="">
+            <br>
+            <br>
+            <button>Contact Me</button>
+            <br>
+            <br>
+        </a>
+        <br>
+        </div>
+        <!--About Me!-->
+        <!--making divs so that I can change location of things-->
+        <div id="AboutMeLabel">
+        <h2>About Me</h2>
+        </div>
+        <div id="profileLocation"><img src="images/BLANK PROFIL.jpg" height="200"></div>
+
+        <!--ABOUT BOX HERE-->
+
+
+        <!--Form for Users to Fill out to Contact me// What Contact Me button is going to Direct them to-->
+        <br>
+        <div id="FORMLOCATION">
+        <h2>Contact Me</h2>
+
+        <form action= "mailto:yaratella@gmail.com" method="POST">
+            <!--Name-->
+
+            <label for="name">Name: </label>
+            <textarea type ="text" id="name" rows = "1" cols = "44" placeholder = "Name" required></textarea>
+            <br>
+            <br>
+
+            <!--Email-->
+
+            <label for="e-mail">E-mail:  </label>
+            <textarea type ="email" id="email" rows = "1" cols = "42" placeholder = "Email" required></textarea>
+            <br>
+
+            <!--Comments-->
+
+            <br>
+            <label for="comments">Comments: </label>
+            <textarea type ="text" id="comments" rows = "1" cols = "40" placeholder = "Optional"></textarea>
+            <br>
+
+            <!--Phone Number-->
+
+            <br>
+            <label for="phone">Phone: </label>
+            <textarea type ="tel" id="phone" rows = "1" cols = "43" placeholder = "Optional" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></textarea>
+            <br>
+
+            <!--Submit Button-->
+
+            <br>
+            <br>
+            <input type="reset">
+            <input type="submit">
+
+        </form>
+        </div>
+    </body>
+</html> <!-- closing html tag -->
